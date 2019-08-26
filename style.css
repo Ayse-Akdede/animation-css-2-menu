@@ -1,0 +1,61 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    background-color: rgb(207, 202, 202);
+}
+
+.icon-bar{
+  width: 90px;
+  background-color: rgb(53, 52, 52);
+ 
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+  position:relative;
+}
+
+.icon-bar a:hover {
+  background-color: white;
+  
+}
+
+.icon-bar a:hover .texte {
+    display:block;
+    transform:translateX(200px);
+    transition:all 0.5s ease;
+}
+
+i {
+    color:rgb(255, 115, 0);
+}
+.active {
+  background-color: black;
+
+}
+
+.texte {
+    transform:translateX(-200px);
+    transition:0.5s;
+    background-color:rgba(128, 128, 128, 0.377);
+    width:200px;
+    height:75px;
+    display:inline-block;
+    position: absolute;
+    top:0;
+    right:0;
+    font-size:26px;
+    line-height:75px;
+    text-align:center;
+    
+}
+
+
